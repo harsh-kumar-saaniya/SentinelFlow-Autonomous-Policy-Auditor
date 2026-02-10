@@ -50,7 +50,7 @@ const HeroSection = () => {
 
         {/* Left Side Text Content */}
         <div className="z-20 w-full md:w-2/3 lg:w-1/2">
-          <h1 className="text-6xl md:text-8xl lg:text-[110px] font-black leading-[0.9] mb-4 tracking-tighter">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-[0.9] mb-4 tracking-tighter">
             Landing Page
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-black">
@@ -62,10 +62,10 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-            <button className="px-10 py-4 bg-black text-white text-lg font-bold rounded-sm hover:scale-105 transition-transform">
+            <button className="px-6 py-2 md:px-8 md:py-3 bg-black text-white text-base md:text-lg font-bold rounded-sm hover:scale-105 transition-transform">
               See More
             </button>
-            <button className="px-10 py-4 bg-transparent border-[3px] border-black text-black text-lg font-bold rounded-sm hover:bg-gray-50 transition-colors">
+            <button className="px-6 py-2 md:px-8 md:py-3 bg-transparent border-[2px] border-black text-black text-base md:text-lg font-bold rounded-sm hover:bg-gray-50 transition-colors">
               Try now
             </button>
           </div>
